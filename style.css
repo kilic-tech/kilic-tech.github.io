@@ -56,21 +56,6 @@ p {
     color: #0077b5;
 }
 
-resume-link {
-    margin-top: 10px;
-}
-
-resume-link a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 2em;
-    transition: color 0.3s;
-}
-
-resume-link a:hover {
-    color: #0077b5;
-}
-
 nav ul {
     list-style: none;
     padding: 0;
