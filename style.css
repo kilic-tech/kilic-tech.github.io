@@ -1,22 +1,51 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
 }
 
 header {
     text-align: center;
     background: #333;
     color: #fff;
-    padding: 1em 0;
+    padding: 2em 0;
+    position: relative;
 }
 
 .profile-img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-top: 10px;
+    margin-top: -75px;
+    border: 5px solid #fff;
+}
+
+h1 {
+    margin: 0.5em 0;
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.social-links {
+    margin-top: 1em;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #0077b5;
 }
 
 nav ul {
@@ -29,17 +58,33 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #0077b5;
 }
 
 section {
     padding: 20px;
-    margin: 10px;
+    margin: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 2em;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 form {
@@ -54,6 +99,20 @@ form label {
 form input, form textarea, form button {
     padding: 10px;
     margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #0077b5;
 }
 
 footer {
@@ -61,8 +120,17 @@ footer {
     padding: 1em 0;
     background: #333;
     color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
 .services-list > li {
     margin-bottom: 20px;
+}
+
+#form-response {
+    margin-top: 10px;
+    font-size: 1em;
+    color: green;
 }
